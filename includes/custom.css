@@ -1,0 +1,43 @@
+li, pre, p {
+  font-size: 1.2em
+}
+
+.back { background-color: grey }
+
+.intro { font-style: italic }
+
+.rubs_container { margin-top: 2em; margin-bottom: 2em }
+
+.rub { font-variant: small-caps; font-size: large; font-weight: bold; }
+
+li { list-style: square inside; background: none }
+
+pre.code {
+  border-width: 1px;
+  border-color: black;
+  font-family: monospace
+}
+
+.fright {
+  margin-left: 1em;
+  padding-left: 1em;
+  border-left-style: solid;
+  float: right;
+  clear: right
+}
+
+.fleft {
+  margin-right: 1em;
+  padding-right: 1em;
+  border-right-style: solid;
+  float: left;
+  clear: left
+}
+
+p > a { 
+  font-family: monospace
+}
+
+h1, h2, h3, h4, h5, h6 {
+  clear: both
+}
